@@ -5,7 +5,7 @@ body {font-family: 'Work Sans', sans-serif; font-weight:400; overflow-x: hidden;
 a {	transition: 0.5s all ease;}
 img {	max-width: 100%;}
 .maincontainer {	margin: 0 auto;	max-width: 1380px; width: 100%; background:#fff;}
-.headercont { background:url(https://theoxyweb.com/svc/images/logoleftbg.jpg) no-repeat left top 3px, url(https://theoxyweb.com/svc/images/headerbg.jpg) no-repeat right top #000; min-height:90px;}
+.headercont { @import background:url(https://theoxyweb.com/svc/images/logoleftbg.jpg) no-repeat left top 3px, @import url(https://theoxyweb.com/svc/images/headerbg.jpg) no-repeat right top #000; min-height:90px;}
 .logo { display:inline-block; margin-left:148px;}
 .phonenu { display:inline-block; margin-left: 206px;}
 .righttop { float:right;    margin-right: 111px;}
@@ -32,7 +32,7 @@ img {	max-width: 100%;}
 .phonenu {display:none;}
 }
 @media screen and (max-width:830px){
-.headercont { background:url(https://theoxyweb.com/svc/images/headerbg.jpg) no-repeat center top #000; text-align:center;min-height:inherit;}
+.headercont { @import background:url(https://theoxyweb.com/svc/images/headerbg.jpg) no-repeat center top #000; text-align:center;min-height:inherit;}
 .logo  { display:inline-block; margin:0;}
 .righttop { display:none;} 
 }
